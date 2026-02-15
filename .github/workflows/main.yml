@@ -1,0 +1,10 @@
+name: Disable Me
+
+on: [push]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This workflow will be disabled"
+
